@@ -133,7 +133,7 @@ some_lecturer = Lecturer('Олег', ' Булыгин')
 some_lecturer.courses_attached += ['Python']
 
 
-some_student = Student('Великий', 'Антон', 'мужчина')
+some_student = Student('Антон', 'Великий', 'мужчина')
 some_student.courses_in_progress += ['Python']
 some_student.finished_courses += ['Вводный курс по программированию']
 some_student.rate(some_lecturer, 'Python', 10)
